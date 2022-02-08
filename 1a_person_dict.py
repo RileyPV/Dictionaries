@@ -3,22 +3,22 @@ person['fname'] = 'Joe'
 person['lname'] = 'Fonebone' 
 person['age'] = 51
 person['spouse'] = 'Edna'
-person['children'] = ['Ralph', 'Betty', 'Joey']
-person['pets'] = {'dog': 'Fido', 'cat': 'Sox'} 
+person['children'] = ['Ralph', 'Betty', 'Joey'] #list
+person['pets'] = {'dog': 'Fido', 'cat': 'Sox'} #dictionary
 
-#print(person)
+print(person)
 
-#print(type(person['children']))
-
-
-#print(person['children'][2])
+print(type(person['children']))
 
 
-#print(person['pets']['cat'])
+print(person['children'][2])
 
 
-#for i in person['children']:
-#     print(i)
+print(person['pets']['cat'])
+
+
+for i in person['children']:
+     print(i)
 
 for i,j in person['pets'].items():
      print(i)
